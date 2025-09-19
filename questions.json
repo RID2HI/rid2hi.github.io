@@ -1,0 +1,102 @@
+[
+  {
+    "id": "q1",
+    "q": "What is a Large Language Model (LLM)?",
+    "options": [
+      "A rules-only chatbot",
+      "A neural network trained on large text corpora to predict tokens",
+      "A relational database with NLP functions"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q2",
+    "q": "Which term best describes 'tokens' in LLMs?",
+    "options": [
+      "Complete sentences",
+      "Subword/word pieces used as model units",
+      "GPU cores"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q3",
+    "q": "Temperature in decoding primarily controls\u2026",
+    "options": [
+      "Model accuracy",
+      "Randomness/diversity of outputs",
+      "Learning rate"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q4",
+    "q": "RAG stands for\u2026",
+    "options": [
+      "Retrieve, Augment, Generate",
+      "Retrieve, Accumulate, Guard",
+      "Retrieve, Augment, Generate (with retrieval of external knowledge)"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "q5",
+    "q": "A prompt 'system message' is used to\u2026",
+    "options": [
+      "Change the model weights",
+      "Steer behavior and set role/instructions",
+      "Adjust tokenizer"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q6",
+    "q": "Which is an evaluation approach for factuality?",
+    "options": [
+      "BLEU",
+      "ROUGE",
+      "LLM-as-a-judge with grounded scoring"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "q7",
+    "q": "Function calling (tool use) enables the model to\u2026",
+    "options": [
+      "Directly change its parameters",
+      "Call external functions/APIs with structured arguments",
+      "Train faster"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q8",
+    "q": "Which is TRUE about fine-tuning vs. prompting?",
+    "options": [
+      "Fine-tuning changes behavior without new weights",
+      "Prompting changes weights",
+      "Fine-tuning updates weights; prompting doesn\u2019t"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "q9",
+    "q": "Best practice to reduce hallucinations is\u2026",
+    "options": [
+      "Increase temperature to 1.5",
+      "Ground responses with retrieval and provide citations",
+      "Disable context"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q10",
+    "q": "Context window size refers to\u2026",
+    "options": [
+      "Maximum input+output tokens the model can handle",
+      "Batch size on GPU",
+      "Number of layers"
+    ],
+    "answer": 0
+  }
+]
