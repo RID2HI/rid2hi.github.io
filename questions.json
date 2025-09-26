@@ -1,102 +1,140 @@
 [
   {
     "id": "q1",
-    "q": "What is a Large Language Model (LLM)?",
-    "options": [
-      "A rules-only chatbot",
-      "A neural network trained on large text corpora to predict tokens",
-      "A relational database with NLP functions"
-    ],
-    "answer": 1
+    "q": "Spot the Fake Tool — Which of these is NOT an actual AI tool?",
+    "options": ["Gamma", "Rytr.me", "Choosy Chat", "Excel 2050 – Auto Audit Edition"],
+    "answer": 3,
+    "explain": "Gamma and Rytr are real; 'Excel 2050 – Auto Audit Edition' is a joke option.",
+    "refs": [
+      { "label": "Gamma", "url": "https://gamma.app" },
+      { "label": "Rytr", "url": "https://rytr.me" }
+    ]
   },
   {
     "id": "q2",
-    "q": "Which term best describes 'tokens' in LLMs?",
-    "options": [
-      "Complete sentences",
-      "Subword/word pieces used as model units",
-      "GPU cores"
-    ],
-    "answer": 1
+    "q": "AI in Minutes — Fireflies / Otter are best used for:",
+    "options": ["Writing client emails", "Transcribing meetings & generating minutes", "Generating audit reports", "Predicting stock prices"],
+    "answer": 1,
+    "explain": "Both are meeting assistants that record, transcribe, and summarize calls.",
+    "refs": [
+      { "label": "Fireflies", "url": "https://fireflies.ai" },
+      { "label": "Otter", "url": "https://otter.ai" }
+    ]
   },
   {
     "id": "q3",
-    "q": "Temperature in decoding primarily controls\u2026",
-    "options": [
-      "Model accuracy",
-      "Randomness/diversity of outputs",
-      "Learning rate"
-    ],
-    "answer": 1
+    "q": "Chatbot Customization — Which tool helps you build your own GPT/chatbot?",
+    "options": ["Botpress", "Rytr.me", "Llamacoder.together", "CASA"],
+    "answer": 0,
+    "explain": "Botpress is a platform for building and deploying chatbots/workflows.",
+    "refs": [
+      { "label": "Botpress", "url": "https://botpress.com" }
+    ]
   },
   {
     "id": "q4",
-    "q": "RAG stands for\u2026",
-    "options": [
-      "Retrieve, Augment, Generate",
-      "Retrieve, Accumulate, Guard",
-      "Retrieve, Augment, Generate (with retrieval of external knowledge)"
-    ],
-    "answer": 2
+    "q": "Prompting Basics — What’s the most important part of AI use?",
+    "options": ["Owning a MacBook Pro", "Writing a clear prompt", "Internet speed", "Wearing black coat like a CA superhero"],
+    "answer": 1,
+    "explain": "Clarity, structure, and context in your prompt drive better outputs.",
+    "refs": [
+      { "label": "Prompting Guide", "url": "https://www.promptingguide.ai" }
+    ]
   },
   {
     "id": "q5",
-    "q": "A prompt 'system message' is used to\u2026",
-    "options": [
-      "Change the model weights",
-      "Steer behavior and set role/instructions",
-      "Adjust tokenizer"
-    ],
-    "answer": 1
+    "q": "CA GPT Purpose — CA GPT is designed for:",
+    "options": ["Playing cricket", "Solving industry CA use cases", "Managing Instagram reels", "Teaching yoga asanas"],
+    "answer": 1,
+    "explain": "It focuses on chartered accountancy workflows and finance tasks."
   },
   {
     "id": "q6",
-    "q": "Which is an evaluation approach for factuality?",
-    "options": [
-      "BLEU",
-      "ROUGE",
-      "LLM-as-a-judge with grounded scoring"
-    ],
-    "answer": 2
-  },
-  {
-    "id": "q7",
-    "q": "Function calling (tool use) enables the model to\u2026",
-    "options": [
-      "Directly change its parameters",
-      "Call external functions/APIs with structured arguments",
-      "Train faster"
-    ],
-    "answer": 1
+    "q": "Image Magic — Which Day-1 tool creates images from text?",
+    "options": ["Gamma", "Text-to-Image Generator (DALL·E type)", "Otter", "CASA"],
+    "answer": 1,
+    "explain": "Text-to-image models turn prompts into images (think DALL·E, Stable Diffusion, etc.).",
+    "refs": [
+      { "label": "OpenAI (DALL·E)", "url": "https://openai.com" },
+      { "label": "Stable Diffusion", "url": "https://stability.ai" }
+    ]
   },
   {
     "id": "q8",
-    "q": "Which is TRUE about fine-tuning vs. prompting?",
-    "options": [
-      "Fine-tuning changes behavior without new weights",
-      "Prompting changes weights",
-      "Fine-tuning updates weights; prompting doesn\u2019t"
-    ],
-    "answer": 2
+    "q": "Video & Doc Analyzer — Which Day-2 tool helps analyze PDFs and YouTube videos?",
+    "options": ["VBA Code", "Lovable.dev", "PDF Analyzer / YouTube Analyzer", "Rytr"],
+    "answer": 2,
+    "explain": "These tools extract text and summarize or answer questions over PDFs/videos."
   },
   {
     "id": "q9",
-    "q": "Best practice to reduce hallucinations is\u2026",
-    "options": [
-      "Increase temperature to 1.5",
-      "Ground responses with retrieval and provide citations",
-      "Disable context"
-    ],
-    "answer": 1
+    "q": "AI Gone Wrong — Which of these is a risk in AI?",
+    "options": ["Prompt Injection", "Low Battery", "GST Interest 18%", "Filing GSTR-3B late"],
+    "answer": 0,
+    "explain": "Prompt injection is when hidden instructions hijack the model’s behavior.",
+    "refs": [
+      { "label": "Security Primer", "url": "https://owasp.org/www-project-top-10-for-llm/" }
+    ]
   },
   {
     "id": "q10",
-    "q": "Context window size refers to\u2026",
-    "options": [
-      "Maximum input+output tokens the model can handle",
-      "Batch size on GPU",
-      "Number of layers"
-    ],
-    "answer": 0
+    "q": "Llamacoder Use — What is Llamacoder.together AI mainly used for?",
+    "options": ["Drafting CARO Reports", "Writing & debugging code using AI models", "Filing Income Tax Returns", "Auto-signing audit reports"],
+    "answer": 1,
+    "explain": "It’s for AI-assisted coding and debugging on modern open models.",
+    "refs": [
+      { "label": "Together AI", "url": "https://www.together.ai" }
+    ]
+  },
+  {
+    "id": "q11",
+    "q": "Gamma’s Superpower — Gamma is best known as a tool for:",
+    "options": ["Making audit working papers", "Creating modern AI-powered presentations", "Analyzing trial balances", "Checking GST mismatches"],
+    "answer": 1,
+    "explain": "Gamma turns outlines/prompts into attractive decks quickly.",
+    "refs": [
+      { "label": "Gamma", "url": "https://gamma.app" }
+    ]
+  },
+  {
+    "id": "q12",
+    "q": "VBA Code Use — VBA Code / Google Apps Script is mainly used for:",
+    "options": ["Automating Excel & Sheets tasks", "Creating Instagram reels", "Auto-replying to emails", "Detecting fraud in SAP directly"],
+    "answer": 0,
+    "explain": "They script and automate spreadsheet workflows in Excel/Google Sheets.",
+    "refs": [
+      { "label": "VBA", "url": "https://learn.microsoft.com/office/vba/api/overview/" },
+      { "label": "Apps Script", "url": "https://developers.google.com/apps-script" }
+    ]
+  },
+  {
+    "id": "q13",
+    "q": "Rytr.me Function — Rytr.me is used for:",
+    "options": ["Auto-generating marketing & content writing", "Filing MCA forms", "Drafting GST appeals", "Making memes on auditors"],
+    "answer": 0,
+    "explain": "Rytr is an AI copywriting assistant.",
+    "refs": [
+      { "label": "Rytr", "url": "https://rytr.me" }
+    ]
+  },
+  {
+    "id": "q14",
+    "q": "Prompt Injection Example — If a malicious user hides “delete all audit data” inside a prompt — this is:",
+    "options": ["Data Privacy Breach", "Prompt Injection Attack", "Simple Typo Error", "Case Law Misclassification"],
+    "answer": 1,
+    "explain": "Hidden directives inside content can subvert the model’s original instructions.",
+    "refs": [
+      { "label": "OWASP LLM Top 10", "url": "https://owasp.org/www-project-top-10-for-llm/" }
+    ]
+  },
+  {
+    "id": "q15",
+    "q": "Lovable.dev Specialty — Lovable.dev is a platform for:",
+    "options": ["Building AI apps & websites quickly without coding", "Filing ROC returns", "Watching AI movies", "Translating Hindi to AI language"],
+    "answer": 0,
+    "explain": "Lovable accelerates app/site creation with AI scaffolding.",
+    "refs": [
+      { "label": "Lovable.dev", "url": "https://lovable.dev" }
+    ]
   }
 ]
